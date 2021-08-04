@@ -1,0 +1,85 @@
+#site {
+    display: grid;
+    grid-template-areas: 
+        'pesquisa  pesquisa  pesquisa  pesquisa pesquisa'
+        'video video video prox prox'
+        'titulo titulo titulo prox prox'
+        'canal canal canal prox prox'
+        'comentarios comentarios comentarios prox prox'
+    ;
+
+}
+#video {
+    background-color: #00ff15;
+    padding: 200px;
+    margin: 20px 20px 1px 80px;
+    text-align: center;
+    grid-area: video;
+}
+#pesquisa {
+    background-color: #ff0000;
+    padding: 30px;
+    margin: 0px 20px 0px 80px;
+    text-align: center;
+    grid-area: pesquisa;
+}
+#canal {
+    background-color: #006eff;
+    padding: 60px;
+    margin: 1px 20px 1px 80px;
+    text-align: center;
+    grid-area: canal;
+}
+#comentarios {
+    background-color: #000000;
+    padding: auto;
+    margin: 1px 20px 20px 80px;
+    text-align: center;
+    grid-area: comentarios;
+}
+
+#prox {
+    background-color: #f6e58d;
+    padding: auto;
+    margin: 20px 80px 20px 0px;
+    text-align: center;
+    grid-area: prox;
+    
+}
+
+#layoutcomentarios {
+    display: grid;
+    grid-template-columns: auto 80%;
+    column-gap: 2px;
+    row-gap: 10px;
+}
+.foto {
+    background-color: #ff00f2;
+    text-align: center;
+    padding: 50px;
+}
+
+.exemplo {
+    background-color: #ebdb4b;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+#layoutcomentarios {
+    display: grid;
+    grid-template-columns: 200px auto;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.miniatura {
+    background-color: #913dd6;
+    text-align: center;
+    padding: 50px;
+}
+.titulo2 {
+    background-color: #636442;
+    text-align: center;
+    padding: 50px;
+    
+}

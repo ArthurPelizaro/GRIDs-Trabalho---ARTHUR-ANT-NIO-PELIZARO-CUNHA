@@ -1,0 +1,74 @@
+#site {
+    display: grid;
+    grid-template-areas: 
+        'stories stories stories stories stories'
+        'foto foto foto prox prox'
+        'legenda legenda legenda prox prox'
+        'canal canal canal prox prox'
+        'comentarios comentarios comentarios prox prox'
+    ;
+
+}
+#foto {
+    background-color: #00ff15;
+    padding: 200px;
+    margin: 20px 80px 1px auto;
+    text-align: center;
+    grid-area: foto;
+}
+#stories {
+    background-color: #ff0000;
+    padding: 30px;
+    margin: 0px 20px 0px 80px;
+    text-align: center;
+    grid-area: stories;
+}
+
+#comentarios {
+    background-color: #000000;
+    padding: auto;
+    margin: 1px 20px 20px 80px;
+    text-align: center;
+    grid-area: comentarios;
+}
+#legenda {
+    background-color: #ff5e00;
+    padding: 30px;
+    margin: 10px 20px 10px 450px;
+    text-align: center;
+    grid-area: legenda;
+}
+  
+
+#layoutcomentarios {
+    display: grid;
+    grid-template-columns: auto 80%;
+    column-gap: 2px;
+    row-gap: 10px;
+}
+.id {
+    background-color: #ff00f2;
+    text-align: center;
+    padding: 50px;
+}
+
+.exemplo {
+    background-color: #ebdb4b;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+#layoutcomentarios {
+    display: grid;
+    grid-template-columns: 200px auto;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.titulo2 {
+    background-color: #636442;
+    text-align: center;
+    padding: 50px;
+    
+}
